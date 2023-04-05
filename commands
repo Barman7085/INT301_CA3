@@ -1,0 +1,11 @@
+change directory to where your memory dump is stored:
+In my case it is
+
+A:\volatility3-1.0.0\dump_analysis\memdump.mem
+
+$python vol.py -f A:\volatility3-1.0.0\dump_analysis\memdump.mem windows.info
+$python vol.py -f A:\volatility3-1.0.0\dump_analysis\memdump.mem windows.pslist
+$vol.py -f A:\volatility3-1.0.0\dump_analysis\memdump.mem windows.pstree
+$vol.py -f A:\volatility3-1.0.0\dump_analysis\memdump.mem windows.psscan
+$vol.py -f A:\volatility3-1.0.0\dump_analysis\memdump.mem windows.dlllist
+$vol.py -f A:\volatility3-1.0.0\dump_analysis\memdump.mem windows.malfind
