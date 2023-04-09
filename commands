@@ -1,11 +1,15 @@
-change directory to where your memory dump is stored:
-In my case it is
+change directory to where your vol.py script is stored:
+In my case it is stored in A:\volatility3-1.0.0\volatility3-1.0.0 and my RAM dump is stored in A:\volatility3-1.0.0\dump_analysis
 
-A:\volatility3-1.0.0\dump_analysis\memdump.mem
+So our Syntax will be like this:- 
+python vol.py -f <filename/directory of filename> "plugin name"
+and at last we will run the scripts mentionend below:
+
 
 $python vol.py -f A:\volatility3-1.0.0\dump_analysis\memdump.mem windows.info
 $python vol.py -f A:\volatility3-1.0.0\dump_analysis\memdump.mem windows.pslist
-$vol.py -f A:\volatility3-1.0.0\dump_analysis\memdump.mem windows.pstree
-$vol.py -f A:\volatility3-1.0.0\dump_analysis\memdump.mem windows.psscan
-$vol.py -f A:\volatility3-1.0.0\dump_analysis\memdump.mem windows.dlllist
-$vol.py -f A:\volatility3-1.0.0\dump_analysis\memdump.mem windows.malfind
+$python vol.py -f A:\volatility3-1.0.0\dump_analysis\memdump.mem windows.pstree
+$python vol.py -f A:\volatility3-1.0.0\dump_analysis\memdump.mem windows.psscan
+$python vol.py -f A:\volatility3-1.0.0\dump_analysis\memdump.mem windows.dlllist
+$python vol.py -f A:\volatility3-1.0.0\dump_analysis\memdump.mem windows.malfind
+$python vol.py -f A:\volatility3-1.0.0\dump_analysis\memdump.mem windows.netscan
