@@ -4,7 +4,7 @@ Introducing Volatility-
 
 Volatility is a free memory forensic tool; it is mainly used by malware and SOC analysts within a blue team (people who are on the defensive side in cyber security field). Volatility and its plugins are written in Python. Volatility framework extracts digital artifacts from volatile memory (RAM) samples. We use FTK imager tool for dumping the ram and investigate the dumped (.mem) file, we will be investigating in Windows operating system hence the extension is mem. It is freely available in Git (https://github.com/volatilityfoundation/volatility).
 
-#How to Install Volatility
+##How to Install Volatility
 
 We need to install python, volatility3 framework and FTK imager. After installing all of them open FTK Imager and go to files and select capture memory.
 Download links
