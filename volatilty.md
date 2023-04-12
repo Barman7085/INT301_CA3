@@ -123,7 +123,7 @@ Syntax: python vol.py -f "\<filename with path\>" windows.psscan
 
 ![image](https://user-images.githubusercontent.com/63195545/231140717-4281a76b-b5f9-44ed-8202-ce4306f76499.png)
 
-* [Step 8
+* Step 8
 
 Sometimes it is useful if we know the full story of processes and what
 may have occurred during extraction, for this purpose we will be using
